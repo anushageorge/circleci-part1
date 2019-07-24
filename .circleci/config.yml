@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.6.1
 
 
-    working_directory: ~/repo
+    working_directory: ~/circleci-part1
 
     steps:
       - checkout
